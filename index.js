@@ -1,30 +1,23 @@
-const farmAnimals = 'cow horse sheep pig chicken';
 
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
-const muppet = {
-  muppetName: 'Miss Piggy',
-  color: 'pink',
-  song: 'Never Before, Never Again',
-  job: 'Cast member of The Muppet Show',
-  partner: 'Kermit'
-};
+const farmAnimals =['cow','horse','sheep','pig','chicken'];
+const [moo,neigh,baa,oink,cluck]=farmAnimals;
+const[bessie, ,dolly,babe,little]=farmAnimals;
+const[blackAndWhite, ,black,pink, ,]=farmAnimals;
 
-const nestedMuppet = {
-  nestedName: 'Kermit',
-  nestedColor: 'green',
-  album: {
-    theMuppetMovie: {
-      song1: 'Rainbow Connection',
-      song2: 'Moving Right Along',
-      song3: 'Never Before, Never Again',
-      song4: 'I Hope That Something Better Comes Along',
-    },
-  },
-  nestedJob: 'Host of The Muppet Show',
-  nestedPartner: 'Miss Piggy'
-};
 
+const rainbowColors=["red","orange","yellow","green","blue","indigo","violet"]
+const[red,orange,yellow,green,blue,indigo,violet]=rainbowColors;
+const[r,o,y,g,b,i,v]=rainbowColors;
+const[ , , , , ,indg, ]=rainbowColors;
+
+
+const Muppet=['Miss Piggy','pink','Never Before, Never Again','Cast member of The Muppet Show','Kermit'];
+const[muppetName,color,song,job,partner]=Muppet;
+
+
+const NestedJob=['Moving Right Along','I Hope That Something Better Comes Along','Host of The Muppet Show','Miss Piggy'];
+const[song2,song4,nestedJob,nestedPartner]=NestedJob;
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
